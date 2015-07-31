@@ -1,0 +1,34 @@
+{
+  "name": "local-dns",
+  "version": "0.0.1",
+  "description": "A caching proxy dns server for local networks",
+  "main": "index.js",
+  "dependencies": {
+    "argparse": "^1.0.2",
+    "bluebird": "^2.9.34",
+    "express": "^4.13.1",
+    "native-dns": "^0.7.0",
+    "native-dns-composer": "^1.0.0",
+    "nedb": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "local-dns": "./bin/local-dns.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/opadron/local-dns.git"
+  },
+  "keywords": [
+    "DNS"
+  ],
+  "author": "Omar Padron <omar.padron@kitware.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/opadron/local-dns/issues"
+  },
+  "homepage": "https://github.com/opadron/local-dns#readme"
+}
